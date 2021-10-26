@@ -3,21 +3,21 @@ Vagrant.require_version ">= 2.0.0"
 boxes = [
     {
         :name => "k8smaster",
-        :eth1 => "192.168.205.10",
+        :eth1 => "192.168.20.10",
         :mem => "2048",
-        :cpu => "1"
+        :cpu => "2"
     },
     {
-        :name => "k8sworker1",
-        :eth1 => "192.168.205.11",
+        :name => "k8snode1",
+        :eth1 => "192.168.20.11",
         :mem => "2048",
-        :cpu => "1"
+        :cpu => "2"
     },
     {
-        :name => "k8sworker2",
-        :eth1 => "192.168.205.12",
+        :name => "k8snode2",
+        :eth1 => "192.168.20.12",
         :mem => "2048",
-        :cpu => "1"
+        :cpu => "2"
     }
 
 ]
